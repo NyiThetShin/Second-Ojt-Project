@@ -1,0 +1,42 @@
+.carousel_ctn{
+    width: 65%;
+    height: 50vh;
+    margin: 10px auto;
+    border: 1px solid black;
+    background: blue;
+    position: relative;
+}
+.carousel_ctn img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.carousel_ctn img:last-child(3){
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+}
+.intro_summer{
+    width: 100%;
+    text-align: center;
+    color: var(--main-txt-color);
+    font-size: 40px;
+}

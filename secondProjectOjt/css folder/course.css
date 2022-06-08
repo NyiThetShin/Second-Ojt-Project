@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-color:linear-gradient(to right,rgb(205, 205, 176), rgb(187, 187, 93)); 
+    --main-bg-color: linear-gradient(to right,rgb(210, 187, 131),rgb(190, 177, 64));
+    --main-txt-color:white;
+    --main-border-radius:15px;
+    --main-box-shadow :0px 2px 5px 3px black;
+    --main-padding : 10px;
+    --mini-padding:3px;
+    --main-margin-top :20px;
+    --main-margin-bottom:10px;
+    --main-font-size : 20px;
+    --main-border: 1px solid black;
+    --main-margin-right:4rem;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:var(--body-color);
+}
+
+/* course wrapper start */
+
+.course_wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:var(--main-padding);
+   
+}
+.choose_course{
+    width: 100%;
+    text-align: center;
+    color: var(--main-txt-color);
+    text-decoration: underline;
+}
+.choose_course span{
+    color: blue;
+}
+
+
+/* course wrapper end */
+
+
+/* course intro image start  */
+.course_intro_img_ctn{
+    width: 45%;
+    height: 70%;
+    overflow: hidden;
+  
+}
+.course_intro_img_ctn img{
+    width: 100%;
+    height: 100%;
+    border-radius:var(--main-border-radius);
+}
+/* course intro image end  */
+
+/* option course ctn start */
+
+.option_course_ctn{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-right: var(--main-margin-right);
+    margin-bottom: var(--main-margin-bottom);
+    
+}
+.course_heading{
+    width: 100%;
+    text-align: center;
+    color:var(--main-txt-color);
+    display: none;
+    margin-bottom: var(--main-margin-bottom);
+    
+}
+
+/* option course ctn end  */
+
+/* primary course start  */
+
+.primary_brief{
+    width: 80%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: var(--main-margin-top);
+    background: url(../images/ESL-classboard.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:10%;
+    top: 10%;
+    border:var(--main-border);
+    padding: var(--main-padding);
+    box-shadow: var(--main-box-shadow);
+}
+.primary_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/ESL-classboard.svg);
+       background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.primary_media h1{
+    color: var(--main-txt-color);
+    text-shadow: 2px 2px 5px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primary_media:hover .course_detail{
+    bottom: 0px;
+}
+.primary_brief h1{
+    color: var(--main-txt-color);
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+}
+.course_detail{
+    width: 100%;
+    background:rgba(225, 225, 225, 0.3);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-txt-color);
+    position: absolute;
+    bottom: -200px;
+    left: 0px;
+    transition: all 1s ease;
+}
+.course_detail button{
+    width: 100px;
+    padding: var(--main-padding);
+    background-color: yellowgreen;
+    border-radius: var(--main-border-radius);
+    border: none;
+    outline: none;
+}
+.course_detail button:hover{
+    background: linear-gradient(to right,white,rgb(41, 91, 185));
+    box-shadow:2px 2px 2px black 
+}
+.course_detail a{
+    text-decoration: none;
+    color: black;
+}
+.primary_brief:hover{
+    z-index: 100;
+}
+.primary_brief:hover .course_detail{
+    bottom: 0px;
+}
+
+/* primary course end */
+
+/* secondary course start */
+
+.secondary_brief{
+    width: 80%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: var(--main-margin-top);
+    background: url(../images/1528010289.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:15%;
+    left: 10%;
+    border: var(--main-border);
+    box-shadow: var(--main-box-shadow);
+   
+}
+.secondary_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/1528010289.svg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.secondary_media h1{
+    color: var(--main-txt-color);
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+}
+.secondary_media:hover .course_detail{
+    bottom: 0px;
+}
+.secondary_brief h1{
+    color: var(--main-txt-color);
+    text-shadow: 2px 2px 5px blue;
+}
+
+.secondary_brief:hover .course_detail{
+    bottom: 0px;
+}
+.secondary_brief:hover{
+    z-index: 200;
+}
+
+/* secondary course end */
+
+/* summer course start */
+
+.summer_brief{
+    background: url(../images/eleve-ordinateur.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    width: 200px;
+    height: 200px;  
+    border: var(--main-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 34.5%;
+    left: -30%;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 2px  4px white; */
+    animation: summer 2s linear infinite;
+   
+}
+.summer_brief:hover .course_detail{
+    bottom: 0px;
+}
+.summer_brief h1{
+    text-align: center;
+}
+.summer_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+     background: url(../images/eleve-ordinateur.svg);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.summer_media h1{
+    color: var(--main-txt-color);
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+}
+.summer_media:hover .course_detail{
+    bottom: 0px;
+}
+@keyframes summer {
+    0%{
+        /* transform: rotate(40deg); */
+        box-shadow:  0px 0px 2px  4px white;
+        color: white;
+    }
+    50%{
+        box-shadow: 0px 0px 2px 4px yellow;
+        color: yellow;
+    }
+    100%{
+        box-shadow: 0px 0px 2px 4px white;
+        color: white;
+    }
+}
+
+.summer_media h1{
+    text-align: center;
+}
+.summer_media:hover .course_detail{
+    bottom: 0px;
+}
+/* summer course end */
+
+
+/* summer media start  */
+
+    @media (max-width:1500px) {
+
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -35%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+    @media (max-width:1350px) {
+
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -37%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+     @media (max-width:1285px) {
+        
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -40%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+      @media (max-width:1200px) {
+        
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -45%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+        @media (max-width:1100px) {
+        
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -50%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+            @media (max-width:1000px) {
+        
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -55%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+            @media (max-width:890px) {
+        
+    .summer_brief{
+        background: url(../images/eleve-ordinateur.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        width: 200px;
+        height: 200px;  
+        border: var(--main-border);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 31%;
+        left: -60%;
+        overflow: hidden;
+        /* box-shadow: 0px 0px 2px  4px white; */
+        animation: summer 2s linear infinite;
+    }
+    }
+
+/* summer media end  */
+
+/* whole secton adjust media start  */
+
+@media (max-width:890px) {
+.course_wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:var(--main-padding);
+}
+.course_intro_img_ctn{
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+  
+}
+.course_intro_img_ctn img{
+    width: 100%;
+    height: 100%;
+    border-radius:var(--main-border-radius);
+}
+.option_course_ctn{
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+}
+.primary_brief{
+    display: none;
+
+}
+.secondary_brief{
+    display: none;
+}
+.summer_brief{
+    display: none;
+}
+.course_heading{
+    width: 100%;
+    text-align: center;
+    color:var(--main-txt-color);
+    display: block;
+    
+}
+.primary_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/ESL-classboard.svg);
+       background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.secondary_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/1528010289.svg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.summer_media{
+    width:30%;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+     background: url(../images/eleve-ordinateur.svg);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+}
+@media (max-width:650px) {
+.option_course_ctn{
+    width: 100%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+}
+}
+@media (max-width:500px) {
+    .primary_media{
+    width:80%;
+    margin: 0 auto  ;
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/ESL-classboard.svg);
+       background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondary_media{
+    width:80%;
+    margin: 0 auto;
+    margin-top: var(--main-margin-top);
+    height:50%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+    background: url(../images/1528010289.svg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.summer_media{
+    width:80%;
+    height:50%;
+    margin: 0 auto;
+    margin-top: var(--main-margin-top);
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: var(--main-box-shadow);
+     background: url(../images/eleve-ordinateur.svg);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+}
+
+/* whole secton adjust media end  */
+
+

@@ -1,0 +1,1391 @@
+
+/* school start  */
+.whole_school_ctn{
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    /* margin-top: var(--main-margin-top); */
+}
+.school_ctn{
+    width: 80%;
+    margin: 0 auto;
+    background: url(../images/School.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+}
+/* school end  */
+
+
+/* teacher info start  */
+.techl_ctn{
+    width: 300px;
+    height: 300px;
+    /* border: var(--main-border); */
+    position: absolute;
+    bottom: -50%;
+    left: 18%;
+    background: linear-gradient(180deg,blue,white);
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+.techl_ctn h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--main-txt-color);
+    
+}
+.techl_info{
+    
+    width: 100%;
+    height: 100%;
+    background: url(../images/teacher.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.techl_ctn:hover{
+    box-shadow: var(--main-box-shadow);
+    cursor: pointer;
+}
+/* teacher info end  */
+
+/* subject info start  */
+
+.subject_ctn{
+    width: 500px;
+    height: 300px;
+    /* border: var(--main-border); */
+    position: absolute;
+    bottom: -50%;
+    right: 15%;
+    background: linear-gradient(180deg,green,white);
+    border-radius: 5px;
+    padding: var(--main-padding);
+    transition: all 1s ease;
+}
+.subject_ctn h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--main-txt-color);
+    
+}
+.subject_info{
+    
+    width: 100%;
+    height: 100%;
+    background: url(../images/1528958734.svg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.subject_ctn:hover{
+    box-shadow: var(--main-box-shadow);
+    cursor: pointer;
+}
+/* subject info end  */
+
+/* learning system start  */
+   
+    .learn_method{
+        width: 100%;
+        height: 90vh;
+        padding: 50px 0px;
+        border: 1px solid black;
+        background: linear-gradient(180deg,grey,transparent);
+        box-shadow: 0px 0px 4px 2px black;
+    }
+    .intro_ways{
+        width: 100%;
+        text-align: center;
+        color: var(--main-txt-color);
+    }
+    .whole_ctn{
+        width: 70%;
+        height: 80%;
+        margin: 0 auto;
+        /* border: var(--main-border);
+        box-shadow: var(--main-box-shadow); */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-top: 50px
+    }
+    .virtual_class{
+        width: 45%;
+        height: 100%;
+        /* border: var(--main-border); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-direction: column;
+    }
+    .virtual_image_ctn{
+        width: 300px;
+        height: 300px;
+        border: 1px solid white;
+        background: blue;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .virtual_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    .para_ctn{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .para_ctn p{
+        width: 50%;
+        text-align: center;
+        color: var(--main-txt-color);
+    }
+    .register_btn{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .register_btn button{
+        padding: var(--main-padding);
+        border-radius: var(--main-border-radius);
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .media_class_one{
+        display: none;
+    }
+/* learning system end  */
+
+/* online class start  */
+
+    .online_class{
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .online_image_ctn{
+        width: 220px;
+        height: 300px;
+        border: 1px solid white;
+        background: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -15%;
+    }
+
+      .online_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    .para_ctn_2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:220px;
+       
+    }
+    .para_ctn_2 p{
+        /* width: 100%; */
+        width: 50%;
+        text-align: center;
+        color: var(--main-txt-color);
+      
+    }
+    .media_class_two{
+        
+        display: none;
+    }
+    .register_btn button:hover{
+        background-color: yellow;  
+    }
+
+ /* online class end  */
+/* bird start */
+
+
+.early_bird_ctn{
+    width: 100%;
+    height: 50vh;
+   
+    margin-bottom: 50px;
+}
+#early_bird_heading{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: var(--main-txt-color);
+    
+}
+
+.early_whole_ctn{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.early_bird_info{
+    width: 400px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    margin-left:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 400px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 10%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* bird end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* techl and subject media start  */
+        @media (max-width:1500px) {
+                .techl_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            left:15%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 400px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            right: 15%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }  
+        }
+        @media (max-width:1250px) {
+                    .techl_ctn{
+            width: 280px;
+            height: 280px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            left:15%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 380px;
+            height: 280px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            right: 15%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        } 
+        }
+        @media (max-width:1200px) {
+            .techl_ctn{
+            width: 250px;
+            height: 250px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            left: 10%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .subject_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            right: 5%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }
+        }
+        @media (max-width:830px) {
+            .techl_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            left: 10%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .subject_ctn{
+            width: 250px;
+            height: 250px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            right: 5%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        } 
+        }
+
+        @media (max-width:680px) {
+            .techl_ctn{
+            width: 150px;
+            height: 150px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            left: 10%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -50%;
+            right: 5%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        } 
+        }
+
+        @media (max-width:530px) {
+        .techl_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -110%;
+            left: 15%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -220%;
+            left: 15%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }  
+        }
+        @media (max-width:500px) {
+
+        .techl_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -110%;
+            left: 10%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -215%;
+            left: 10%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }   
+        }
+        /* samsung glaxy S20 ultra media  start */
+            @media (max-width:412px) {
+                .techl_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -80%;
+            left: 0%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -150%;
+            left: 0%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }     
+            }
+        /* samsung glaxy S20 ultra media end  */
+        @media (max-width:400px) {
+        .techl_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -110%;
+            left: 0%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 300px;
+            height: 300px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -215%;
+            left: 0%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }   
+        }
+        @media (max-width:350px) {
+        .techl_ctn{
+            width: 250px;
+            height: 250px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -100%;
+            left: 0%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 250px;
+            height: 250px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -200%;
+            left: 0%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }   
+        }
+        @media (max-width:300px) {
+        .techl_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -100%;
+            left: 0%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -200%;
+            left: 0%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }   
+        }
+
+        /* galaxy fold start  */
+        @media (max-width:300px) {
+        .techl_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -80%;
+            left: 0%;
+            background: linear-gradient(180deg,blue,white);
+            border-radius: 5px;
+            transition: all 1s ease;
+            
+        }
+        .techl_info{
+            
+            width: 100%;
+            height: 100%;
+            background: url(../images/teacher.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .techl_ctn h1{
+            font-size: 22px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: var(--main-txt-color);
+            
+        }
+        .subject_ctn{
+            width: 200px;
+            height: 200px;
+            /* border: var(--main-border); */
+            position: absolute;
+            bottom: -150%;
+            left: 0%;
+            background: linear-gradient(180deg,green,white);
+            border-radius: 5px;
+            padding: var(--main-padding);
+            transition: all 1s ease;
+        }   
+        }
+        /* galaxy fold end  */
+
+
+/* techl and subject media end  */
+
+
+/* learning subject media start  */
+
+
+    @media (max-width:1500px) {
+        .para_ctn{
+            display: none;
+        }
+        .media_class_one {
+        width: 100%;
+        text-align: center;
+        display: block
+            
+        }
+        .para_ctn_2{
+            display: none;
+        }
+        .media_class_two {
+        width: 100%;
+        text-align: center;
+        display: block;
+         margin-top: 200px;   
+        }
+         .media_class_two{
+            margin-top: 280px;
+        }
+    }
+    @media (max-width:900px) {
+           .online_image_ctn{
+        width: 220px;
+        height: 300px;
+        border: 1px solid white;
+        background: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -15%;
+    }
+
+      .online_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+       .virtual_image_ctn{
+        width: 250px;
+        height: 250px;
+        border: 1px solid white;
+        background: blue;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .virtual_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    .media_class_two{
+            margin-top: 280px;
+        }
+    }
+
+    @media (max-width:730px) {
+        .whole_ctn{
+        width: 90%;
+        height: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-top: 50px
+    }
+          .virtual_image_ctn{
+        width: 220px;
+        height: 220px;
+        border: 1px solid white;
+        background: blue;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .virtual_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+        .online_image_ctn{
+        width: 200px;
+        height: 280px;
+        border: 1px solid white;
+        background: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -15%;
+    }
+
+      .online_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+       .media_class_two{
+            margin-top: 250px;
+        }
+    }
+
+    @media (max-width:640px) {
+    .whole_ctn{
+        width: 90%;
+        height: 80%;
+        margin: 0 auto;
+      
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-top: 50px
+    }
+    .intro_ways{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    }
+    @media (max-width:530px) {
+        .learn_method{
+            margin-top: 500px;
+            padding: 50px 0px;
+        }
+        .media_class_two{
+            margin-top: 250px;
+        }
+    }
+    @media (max-width:500px) {
+        .intro_ways{
+            margin-top: 50px;
+        }
+     .whole_ctn{
+        width: 100%;
+        height: 100%;
+        /* border: var(--main-border);
+        box-shadow: var(--main-box-shadow); */
+       
+    }
+    .virtual_class{
+        width: 100%;
+        height: 100%;
+        /* border: var(--main-border); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-direction: column;
+    }
+    .virtual_image_ctn{
+        width: 300px;
+        height: 300px;
+        border: 1px solid white;
+        background: blue;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .virtual_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    .online_class{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        margin-top: 70px;
+    }
+    .online_image_ctn{
+        width: 220px;
+        height: 300px;
+        border: 1px solid white;
+        background: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -15%;
+    }
+
+      .online_image_ctn img{
+        width: 80%;
+        height: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    }
+/* learning suject meida end  */
+
+/* bird media start  */
+
+@media (max-width:1100px) {
+.early_bird_info{
+    width: 350px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin-left:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 350px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 10%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:960px) {
+
+.early_bird_info{
+    width: 350px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 350px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 5%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:850px) {
+
+.early_bird_info{
+    width: 300px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 300px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 5%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:730px) {
+
+.early_bird_info{
+    width: 270px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin-left:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 270px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 3%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:630px) {
+
+.early_bird_info{
+    width: 250px;
+    height:80%;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin-left:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 250px;
+    height: 80%;
+    border-radius: var(--main-border-radius);
+    margin-right: 1%;
+    background: linear-gradient(360deg,blue,transparent);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:550px) {
+.early_whole_ctn{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.early_bird_info{
+    width: 70%;
+    height:40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin-left:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 75%;
+    margin: 0 auto;
+    height: 50%;
+    border-radius: var(--main-border-radius);
+    margin-right: 1%;
+    background: linear-gradient(360deg,blue,transparent);
+    position: relative;
+    bottom: 0;
+    right: 47%;
+    transform: translateX(50%);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:500px) {
+.early_bird_ctn{
+    width: 100%;
+    height: 50vh;
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+.early_whole_ctn{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.early_bird_info{
+    width: 70%;
+    height:40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin-left:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 75%;
+    margin: 0 auto;
+    height: 50%;
+    border-radius: var(--main-border-radius);
+    margin-right: 1%;
+    background: linear-gradient(360deg,blue,transparent);
+    position: relative;
+    bottom: 0;
+    right: 47%;
+    transform: translateX(50%);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+@media (max-width:350px) {
+
+
+.early_bird_info{
+    width: 60%;
+    height:40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    margin-left:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,transparent);
+    border-radius: var(--main-border-radius);
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#discount{
+    position: absolute;
+    top: -10%;
+    right: -25%;
+    z-index: 100000;
+}
+.early_image_ctn{
+    width: 60%;
+    margin: 0 auto;
+    height: 40%;
+    border-radius: var(--main-border-radius);
+    margin-right: 1%;
+    background: linear-gradient(360deg,blue,transparent);
+    position: relative;
+    bottom: 0;
+    right: 47%;
+    transform: translateX(50%);
+}
+.early_image_ctn img{
+    width: 100%;
+    height: 100%;
+    
+}
+}
+
+/* bird media end *

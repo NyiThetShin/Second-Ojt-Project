@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" width="4000" height="4000">
+<defs></defs>
+  <desc>Dreieck gruppiert mit Umkreis</desc>
+  <g id="Dreieck+Kreise"
+    transform="matrix(0.5,0,0,-0.5,500,1600)"
+    style="fill-opacity:0.2;fill:none;stroke:blue;stroke-opacity:1;stroke-width:20;">
+  	<!-- Dreiecksberechnungen
+		     390 780 1560 2340
+				 1351(=7*193) 2702 
+  	     Seitenlänge: a (= 4 * 780 = 3120)
+				 a/4 = 780
+				 a/2 = 1560
+				 a*3/4 = 2340
+				 a*sqrt(3)= 5404
+				 a*sqrt(3)/2 = 2702
+				 a*sqrt(3)/3 = 1801.333
+				 a*sqrt(3)/4 = 1351
+				 
+				 Höhe: h=sqrt(3)*a/2 (=2702)
+				 
+				 Koordinaten der Eckpunkte:
+				 A (0,0) B(3120,0) C(1560,2702)=(a/2,h)=(a/2,sqrt(3)*a/2)
+				 
+				 Annäherung von sqrt(3): 1351/780 = 1.732051282051282
+				 sqrt(3) = 1,732050807568877
+				 1351*1351/780/780 = 3,00000164365549
+  	     
+  	     Umkreisradius: ru = h*2/3 = sqrt(3)*a/3 (=1801.3333)
+  	     Inkreisradius: ri = ru/2        (=900.6667)
+				 Mittelpunkt: (A+B+C)/3 = (a/2,a*sqrt(3)/6)
+				 
+  	     Koordinaten der Seitenmittelpunkte: 
+  	     D = (A+C)/2 = (a/4,sqrt(3)*a/4) = (780,1351)
+				 E = (B+C)/2 = (a*3/4,sqrt(3)*a/4) = (2340,1351)
+  
+	       F = (A+B)/4 = (a/4,0) = (780,0)
+				 G = (A+B)*3/4 = (a*3/4,0) = (2340,0)
+				 
+				 E-F = (a/2,a*sqrt(3)/4) = (1560,1351)
+				 
+				 (H-D)*(E-F)=0
+				 HF parallel EF
+				 hx = a*13/28
+				 hy = a*3*sqrt(3)/28
+				 H = (1448.571428571429,579)
+				 
+ 				 (I-G)*(E-F)=0
+				 IF parallel EF
+				 ix = a*15/28 = 1671,428571428571
+				 iy = a*sqrt(3)/7 = 772
+				 I = (1671.428571428571,772)
+  	-->
+    <!-- Umkreis für das Dreieck -->
+      <polygon stroke-dasharray="15,25"
+       points="0,0 3120,0 1560,2702 0,0"
+       id="triangle" />
+			 <path transform="matrix(1,0,0,-1,0,0)"
+			 d="m 100 100 h -1.090373 l -0.754476,-2.144572 h -3.327962 l -0.754476,2.144572 h -1.038696 l 2.800862,-7.694621 h 1.364258 z m -2.160075,-3.023071 -1.348755,-3.777547 -1.353923,3.777547 z"
+        fill="red" stroke="blue" stroke-width="3" id="letterA" />
+	    <!-- first helpline -->
+      <line style="stroke:green;stroke-opacity:1;stroke-width:2;" stroke-dasharray="15,25"
+       x1="780"
+       y1="-200"
+       x2="780"
+       y2="3000"
+       id="l1" />
+ 	    <!-- 2nd helpline -->
+      <line style="stroke:green;stroke-opacity:1;stroke-width:2;" stroke-dasharray="15,25"
+       x1="2340"
+       y1="-200"
+       x2="2340"
+       y2="3000"
+       id="l1" />
+	    <!-- first cutting line from E to F -->
+      <line style="stroke:cyan;stroke-opacity:1;stroke-width:5;" stroke-dasharray="20,10,5,5,5,10"
+       x1="780"
+       y1="0"
+       x2="2340"
+       y2="1351"
+       id="c1" />
+ 	    <!-- 2nd cutting line from D to H -->
+      <line style="stroke:cyan;stroke-opacity:1;stroke-width:5;" stroke-dasharray="20,10,5,5,5,10"
+       x1="1448.57"
+       y1="579"
+       x2="780"
+       y2="1351"
+       id="c2" />
+	    <!-- 3nd cutting line from I to E -->
+      <line style="stroke:cyan;stroke-opacity:1;stroke-width:5;" stroke-dasharray="20,10,5,5,5,10"
+       x1="1671.4286"
+       y1="772"
+       x2="2340"
+       y2="0"
+       id="c3" />
+	    <!-- lines from one midpoint to another -->
+      <line style="stroke:yellow;stroke-opacity:1;stroke-width:5;" stroke-dasharray="20,10,5,5,5,10"
+       x1="1560"
+       y1="0"
+       x2="2340"
+       y2="1351"
+       id="x1" />
+
+     <g id="vierecke" style="stroke:#088;stroke-opacity:1;stroke-width:20;" stroke-dasharray="10,5,5,10">
+     <!-- AFHD -->
+     <polygon style="fill:#008"
+       points="0,0 780,0 1448.57143,579 780,1351"
+       id="eck1" />
+    <!-- FGI -->
+ 		<polygon style="fill-opacity:0.8;fill:#f88"
+       points="780,0 2340,0 1671.42857,772"
+       id="eck2" />
+       id="eck1" />
+    <!-- GBEI -->
+ 		<polygon style="fill-opacity:0.8;fill:#f4f"
+       points="2340,0 3120,0 2340,1351 1671.42857,772"
+       id="eck2" />			 
+    <!-- HECD -->
+ 		<polygon style="fill-opacity:0.8;fill:#8f8"
+       points="1448.57143,579 2340,1351 1560,2702 780,1351"
+       id="eck2" />		      
+		</g>
+		<g  transform="matrix(1,0,0,-1,0,0)"
+		style="fill-opacity:1;fill:black;text-anchor:middle;text-align:center;stroke:none"
+		font-weight="bold" font-size="200px" font-family="Arial">
+    <text x="-200" y="100" >A</text>
+    <text x="3320" y="100">B</text>
+		<text x="780" y="200">E</text>
+		<text x="2340" y="200">G</text>
+    <text x="1560" y="-2800">C</text>
+    <text x="600" y="-1351">D</text>
+		<text x="2540" y="-1351">E</text>
+		<text x="1448" y="-529">H</text>
+		<text x="1671" y="-822">I</text>
+		</g>
+  </g>
+</svg>
