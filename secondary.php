@@ -133,6 +133,7 @@ if(!isset($_SESSION['email'])){
             </div>
 
     <!-- early bird end -->
+    <?php  include_once "footer.php"?>
 
     <script src="./secondProjectOjt/javascript/nav.js"></script>
 </body>

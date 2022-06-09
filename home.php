@@ -16,10 +16,40 @@ if(!isset($_SESSION['email'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- custom css -->
     <link rel="stylesheet" href="./secondProjectOjt/css folder/course.css">
     <link rel="stylesheet" href="./secondProjectOjt/css folder/activity.css">
     <link rel="stylesheet" href="./secondProjectOjt/css folder/nav.css">
+
+
+    <!--icons links-->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="f.css">
+
+
+
+
+
 
     <!-- fontawesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -28,38 +58,7 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
 
-    <!-- navbar section start -->
-
-    <div class="nav_wrapper">`
-        <div class="nav_logo">
-            <img src="./secondProjectOjt/images/logo.png" alt="">
-        </div>
-        <div class="nav_menu ">
-            <div class="home"><a href="home.php">Home</a></div>
-            <div class="about"><a href="about.php">About</a></div>
-            <div class="option_select">
-            <select  id="select_action" onchange="selectFn()">
-                <!-- <option disabled selected>Choose subject</option> -->
-                <option value="primary.php">Primary</option>
-                <option value="secondary.php">Secondary</option>
-                <option value="summer.php"> ProgramSummer</option>
-            </select></div>
-            <div class="activity"><a href="Activity.php">Activity</a></div>
-            <div class="contact"><a href="contact.php">contact</a></div>
-            <div class="login"><a href="Logout.php" >Logout</a></div>
-        </div>
-        <div class="humburger_menu_ctn">
-            <i class="fa-solid fa-bars toggle"></i>
-        </div>
-          <div class="x_mark_ctn">
-            <i class="fa-solid fa-xmark x_mark"></i>
-        </div>
-        <div class="user_info">
-            <i class="fa-solid fa-user "></i>
-        </div>
-    </div>
-
-    <!-- navbar section end -->
+    <?php include_once "Nav.php"; ?>
 
     <!-- course section start -->
     <h1 class="choose_course">CHOOSE YOUR <span>COURSE</span></h1>
@@ -153,7 +152,9 @@ if(!isset($_SESSION['email'])){
 
     <!-- activity section end  -->
 
-
+    <?php 
+        include_once "footer.php"
+    ?>
     
     
 

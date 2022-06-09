@@ -130,6 +130,8 @@
 
     <!-- early bird end -->
 
+    <?php include_once "footer.php" ?>
+
 
     <script src="./secondProjectOjt/javascript/nav.js"></script>
     <script src="./secondProjectOjt/javascript/primary.js"></script>

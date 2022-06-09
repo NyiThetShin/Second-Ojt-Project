@@ -132,6 +132,7 @@ if(!isset($_SESSION['email'])){
 
     <!-- early bird end -->
 
+    <?php include_once "footer.php" ?>
 
 
 

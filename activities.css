@@ -1,0 +1,208 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h4
+		{
+			color: blue;
+			text-shadow: 1px 1px 1px goldenrod;
+		}
+p 
+		{
+			color: blue;
+		}
+.ppading
+{
+	padding-left: 5%;
+}
+fieldset.mainpic
+{
+	background-color: palegoldenrod;
+	width: 100%;
+	padding: 2%;
+	margin: auto;
+}
+table.pic1
+{
+	width: 100%;
+}
+table.pic1 tr
+{
+	padding: 2%;
+
+}
+table.pic1 tr .wpic
+{
+	width: 35%;
+}
+table.pic1 tr .lwpic img
+{
+	width: 100%;
+	border: 1px solid black;
+	border-top-left-radius: 40%;
+	padding-left: 5%;
+	background-color: goldenrod;
+	padding-top: 5%;
+	box-shadow:5px 5px 3px blue;
+}
+table.pic1 tr .rwpic img
+{
+	width: 100%;
+	border: 1px solid black;
+	border-top-right-radius: 40%;
+	padding-right: 5%;
+	background-color: goldenrod;
+	padding-top: 1%;
+	box-shadow:5px 5px 3px blue;
+}
+table.pic1 tr .blwpic img
+{
+	width: 100%;
+	border: 1px solid black;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	padding-top: 5%;
+	background-color: goldenrod;
+	box-shadow:5px 5px 3px blue;
+
+}
+table.pic1 tr .brwpic img
+{
+	width: 100%;
+	border: 1px solid black;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	
+	padding-top: 5%;
+	background-color: goldenrod;
+	box-shadow:5px 5px 3px blue;
+}
+table.pic1 tr ul
+{
+	width: 100%;
+	
+}
+table.pic1 tr ul li
+{
+ list-style: none;
+}
+
+table.pic1 tr ul li img
+{
+	width: 50%;
+	border: 1px solid black;
+	box-shadow:5px 5px 3px blue;
+}
+table.pic1 tr ul li img.frpic
+{
+	float: right;
+	margin-bottom: 5%;
+	box-shadow:5px 5px 3px blue;
+	
+}
+
+table.pic1 tr ul li img.flpic
+{
+	float: left;
+}
+
+
+table.pic1 tr .roundpic img
+{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2%;
+	background-color: goldenrod;
+	box-shadow:5px 5px 3px blue;
+}
+
+@media all and (max-width: 650px)
+{
+	fieldset.mainpic
+{
+	background-color: palegoldenrod;
+	width: 100%;
+	padding: 2%;
+	margin: 1% 1% 1% 1%;
+}
+
+table.pic1
+{
+	width: 100%;
+}
+table.pic1 tr .wpic
+{
+	width: 35%;
+}
+table.pic1 tr .middletd
+{
+	width: 30%;
+}
+table.pic1 tr .middletd ul
+{
+	width: 80%;
+}
+table.pic1 tr .middletd ul li 
+{
+	list-style: none;
+}
+table.pic1 tr .middletd ul li img 
+{
+	width: 100%;
+	box-shadow: 1px 1px 1px blue;	
+}
+table.pic1 tr .middletd  h4 
+{
+	font-size: 15%;
+	width: 100%;
+
+}
+table.pic1 tr .middletd  p 
+{
+	font-size: 10%;
+	width: 100%;
+}
+
+table.pic1 tr .lwpic img
+{
+	width: 80%;
+	box-shadow: 1px 1px 1px blue;
+	
+}
+table.pic1 tr .rwpic img
+{
+	width: 80%;
+	box-shadow: 1px 1px 1px blue;
+	
+	
+	
+}
+table.pic1 tr .blwpic img
+{
+	width: 80%;
+	padding-left: 2%;
+	box-shadow: 1px 1px 1px blue;
+
+}
+table.pic1 tr .brwpic img
+{
+	width: 80%;
+	padding-left: 2%;
+	box-shadow: 1px 1px 1px blue;
+
+}
+
+table.pic1 tr .roundpic img
+{
+	
+	box-shadow:1px 1px 1px blue ;
+	
+}
+
+}
+
+
+
