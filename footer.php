@@ -118,7 +118,7 @@ footer.firstcolor p
 </head>
 		<footer class="firstcolor">
 					<div class="lohodiv">
-							<img src="./Future-Hope-master/Activities/logo.png">
+							<img src="Activities/logo.png">
 							<a href=""><i  class="fas fa-angle-up"></i></a>
 					</div>
 					<table>

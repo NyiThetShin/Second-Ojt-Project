@@ -46,8 +46,8 @@ if(!isset($_SESSION['email'])){
                 <option value="secondary.php">Secondary</option>
                 <option value="summer.php"> ProgramSummer</option>
             </select></div>
-            <div class="activity"><a href="Activity.php">Activity</a></div>
-            <div class="contact"><a href="contact.php">contact</a></div>
+            <div class="activity"><a href="Activities.php">Activity</a></div>
+            <div class="contact"><a href="contactus.php">contact</a></div>
             <div class="login"><a href="Login.php">Login</a></div>
         </div>
         <div class="humburger_menu_ctn">

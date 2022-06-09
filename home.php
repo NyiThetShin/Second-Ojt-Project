@@ -23,13 +23,12 @@ if(!isset($_SESSION['email'])){
 
 
 
+   
 
 
 
 
-
-
-
+    
 
 
 
@@ -59,6 +58,51 @@ if(!isset($_SESSION['email'])){
 <body>
 
     <?php include_once "Nav.php"; ?>
+
+        
+      <!-- carousel start  -->
+
+        <div class="carousel_ctn">
+           
+                <img src="./secondProjectOjt/images/istockphoto-1072707398-1024x1024.jpg" alt="" class="carousel_img">
+                <div class="left"><i class="fa-solid fa-circle-arrow-left"></i></div>
+                <div class="right"><i class="fa-solid fa-circle-right"></i></div>
+        </div>
+
+    <!-- carousel end  -->
+
+    <!-- about us start -->
+
+    <div class="about_wrapper">
+        <h1>About Us</h1>
+        <div class="about_mini_wrapper">
+            
+            <div class="about_one">
+                <img src="./secondProjectOjt/images/istockphoto-1066324992-1024x1024.jpg" alt="">
+            </div>
+            <div class="about_two">
+                <h1>Teacher</h1>
+                <div class="img_ctn">
+                      <div class="img_one_ctn">
+                    <img src="./secondProjectOjt/images/istockphoto-1325459873-1024x1024.jpg" alt="">
+                </div>
+                 <div class="img_two_ctn">
+                    <img src="./secondProjectOjt/images/istockphoto-1224311229-1024x1024.jpg" alt="">
+                </div>
+                 <div class="img_three_ctn">
+                    <img src="./secondProjectOjt/images/istockphoto-1324167736-1024x1024.jpg" alt="">
+                </div>
+                <div class="img_four_ctn">
+                    <img src="./secondProjectOjt/images/istockphoto-819137894-1024x1024.jpg" alt="">
+                </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+
+    <!-- about us end -->
+ 
 
     <!-- course section start -->
     <h1 class="choose_course">CHOOSE YOUR <span>COURSE</span></h1>
@@ -157,6 +201,11 @@ if(!isset($_SESSION['email'])){
     ?>
     
     
+
+
+
+
+ 
 
 <script src="./secondProjectOjt/javascript/nav.js"></script>
 <script src="./secondProjectOjt/javascript/home.js"></script>

@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./secondProjectOjt/css folder/course.css">
     <link rel="stylesheet" href="./secondProjectOjt/css folder/activity.css">
     <link rel="stylesheet" href="./secondProjectOjt/css folder/nav.css">
+    <link rel="stylesheet" href="./secondProjectOjt/css folder/summer.css">
+    <link rel="stylesheet" href="./secondProjectOjt/css folder/about.css">
    <!-- fontawesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
