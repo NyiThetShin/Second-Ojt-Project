@@ -1,0 +1,72 @@
+
+
+.dd_wrapper{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ad{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 15px;
+}
+.select_option{
+    width: 200px;
+    border: 1px solid black;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+    position: relative;
+    z-index: 150000;
+
+}
+.select_primary{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+    margin-top: 0px;
+    padding-bottom:5px;
+}
+.select_primary a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+     
+}
+.select_primary_2{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom:5px;
+}
+.select_primary_2 a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+
+}
+.select_primary_3{
+    width: 100%;
+    text-align: center;
+    padding-bottom:5px;
+}
+.select_primary_3 a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+
+}
+.active{
+    display: block;
+}
+dd.css
+Displaying Nav.php.
